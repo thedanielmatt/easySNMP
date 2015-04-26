@@ -38,19 +38,6 @@ snmp_keysToSet = {'defcommunity': ""}
 snmpd_keysToSet = {'rocommunity': "", 'sysservices': 76, 'syscontact': "", 'syslocation': ""}
 
 
-class SNMP(object):
-
-    def __init__(self, com_Name):
-
-        self.com_Name = com_Name
-
-
-class SNMPD(object):
-   
-    def __init__(self, com_Name):
-        self.com_Name = com_Name
-
-
 def checkFiles(file):
     # function creates a backup copy of existing SNMP configuration files
     # and creates new, empty ones
