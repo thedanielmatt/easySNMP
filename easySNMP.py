@@ -124,6 +124,7 @@ def main():
 
     # stop and start SNMP with the new config
     proc = subprocess.Popen('launchctl unload /System/Library/LaunchDaemons/org.net-snmp.snmpd.plist', shell=True, bufsize=-1)
+    proc = subprocess.Popen('sleep 5', shell=True, bufsize=-1)
     proc = subprocess.Popen('launchctl load -w /System/Library/LaunchDaemons/org.net-snmp.snmpd.plist', shell=True, bufsize=-1)
 
 if debug:
