@@ -5,16 +5,6 @@ Author - Daniel Shryock
 
 Purpose: Easily configure OS X for SNMP monitoring with just
 a few select arguments/keywords.
-
-This script is provided without warranty or guarantee, and is
-licensed for use only at the direction of elan Technologies.
-It is not for distribution. Any application of this script at
-a customer location is allowed however use of this script by
-elan Technologies or customers of elan Technologies does not
-make elan Technologies responsible for any ongoing maintenance
-of this script.
-
-Copyright 2015 Elan Technologies
 """
 
 import optparse
